@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    font-family: Segoe UI, Nunito, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+    color: white;
+}
+
+body.day-mode{
+    background-color: white;
+    color: black;
+}
+
+body.day-mode .night-card {
+    display: none;
+}
+
+body.night-mode{
+    background-color: black;
+    color: white;
+}
+
+body.night-mode .day-card {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: purple;
+
+}
+
+.pokedex h1 {
+    color:  violet
+}

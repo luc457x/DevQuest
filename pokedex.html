@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="32x32"
+      href="./src/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>PokeDex</title>
+  </head>
+  <body class="pokedex">
+    <header>
+      <a href="/">
+        <img src="./src/img/pokedex/pokeball.png" alt="pokeball" class="logo" />
+      </a>
+      <button id="toggle-button">
+        <img src="./src/img/pokedex/day.png" alt="solrock" class="icon" class="icon-button">
+      </button>
+    </header>
+    <main>
+      <ul class="pokemon-list">
+        <li class="day-card">
+            <div class="info">
+                <span>Bulbasaur</span>
+                <span>#001</span>
+            </div>
+            <img src="./src/img/pokedex/bulbasaur.gif" alt="Bulbasaur" class="gif">
+            <ul>
+                <li class="grass">Grass</li>
+                <li class="poison">Poison</li>
+            </ul>
+            <p>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.</p>
+        </li>
+      </ul>
+    </main>
+    <footer></footer>
+    <script src="./src/js/night-mode.js"></script>
+  </body>
+</html>
