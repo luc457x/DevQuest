@@ -8,38 +8,144 @@
       rel="icon"
       type="images/png"
       sizes="32x32"
-      href="./src/images/favicon.ico"
+      href="./src/img/favicon-pokedex.ico"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/pokedex.css">
+    <script src="./src/js/pokedex/night-mode.js"></script>
     <title>PokeDex</title>
   </head>
-  <body class="pokedex">
+  <body>
     <header>
-      <a href="/">
-        <img src="./src/img/pokedex/pokeball.png" alt="pokeball" class="logo" />
-      </a>
+      <button id="collapse-button">
+        <img src="./src/img/pokedex/pokeball.png" alt="pokeball" class="icon" />
+      </button>
+      <h1>PokeDex</h1>
       <button id="toggle-button">
-        <img src="./src/img/pokedex/day.png" alt="solrock" class="icon" class="icon-button">
+        <img class="icon">
       </button>
     </header>
-    <main>
+    <main class="collapse">
       <ul class="pokemon-list">
-        <li class="day-card">
-            <div class="info">
-                <span>Bulbasaur</span>
-                <span>#001</span>
-            </div>
-            <img src="./src/img/pokedex/bulbasaur.gif" alt="Bulbasaur" class="gif">
-            <ul>
-                <li class="grass">Grass</li>
-                <li class="poison">Poison</li>
+        <li class="card">
+          <div class="name">
+            <span>Bulbasaur</span>
+            <span>#0001</span>
+          </div>
+          <img src="./src/img/pokedex/bulbasaur.png" alt="Bulbasaur" class="png">
+          <div class="info">
+            <ul class="types">
+              <li class="grass">Grass</li>
+              <li class="poison">Poison</li>
             </ul>
-            <p>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.</p>
+            <p class="entry">Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="name">
+              <span>Charmander</span>
+              <span>#0004</span>
+          </div>
+          <img src="./src/img/pokedex/charmander.png" alt="Charmander" class="png">
+          <div class="info">
+            <ul class="types">
+              <li class="fire">Fire</li>
+            </ul>
+            <p class="entry">Charmander, the Lizard Pokémon. Charmander's health can be gauged by the fire on the tip of its tail, which burns intensely when it's in good health.</p>
+          </div>          
+        </li>
+        <li class="card">
+          <div class="name">
+              <span>Squirtle</span>
+              <span>#0007</span>
+          </div>
+          <img src="./src/img/pokedex/squirtle.png" alt="Squirtle" class="png">
+          <div class="info">
+            <ul class="types">
+              <li class="water">Water</li>
+            </ul>
+            <p class="entry">Squirtle. This Tiny Turtle Pokémon draws its long neck into its shell to launch incredible Water attacks with amazing range and accuracy. The blasts can be quite powerful.</p>
+          </div>          
+        </li>
+        <li class="card">
+          <div class="name">
+              <span>Caterpie</span>
+              <span>#0010</span>
+          </div>
+          <img src="./src/img/pokedex/caterpie.png" alt="Caterpie" class="png">
+          <div class="info">
+            <ul class="types">
+              <li class="bug">Bug</li>
+            </ul>
+            <p class="entry">Caterpie, the Worm Pokémon. Caterpie uses the suction cups on its feet to climb trees and feed on its favorite leaves.</p>
+          </div>
+        </li>
+        <li class="day-card">
+          <div class="name">
+              <span>Pidgey</span>
+              <span>#0016</span>
+          </div>
+          <img src="./src/img/pokedex/pidgey.png" alt="Pidgey" class="png">
+          <div class="info">
+            <ul class="types">
+              <li class="normal">Normal</li>
+              <li class="flying">Flying</li>
+            </ul>
+            <p class="entry">Pidgey, the Tiny Bird Pokémon. A Normal and Flying type. Pidgey usually doesn't like to battle, but it won't hesitate to attack if provoked.</p>
+          </div>
+        </li>
+        <li class="day-card">
+          <div class="name">
+              <span>Combee</span>
+              <span>#0415</span>
+          </div>
+          <img src="./src/img/pokedex/combee.png" alt="Combee" class="png">
+          <div class="info">
+            <ul class="types">
+              <li class="bug">Bug</li>
+              <li class="flying">Flying</li>
+            </ul>
+            <p class="entry">Combee, the Tiny Bee Pokémon. A trio of Combee stays together for life, busily carrying sweet nectar from flower to flower.</p>
+          </div>        
+        </li>
+        <li class="night-card">
+          <div class="name">
+              <span>Zubat</span>
+              <span>#0041</span>
+          </div>
+          <img src="./src/img/pokedex/zubat.png" alt="Zubat" class="png">
+          <div class="info">
+            <ul class="types">
+              <li class="poison">Poison</li>
+              <li class="flying">Flying</li>
+            </ul>
+            <p class="entry">Zubat, Flying Pokémon with supersonic powers. Zubat live in caves and hate to fly outside in daylight.</p>
+          </div>          
+        </li>
+        <li class="night-card">
+          <div class="name">
+              <span>Gastly</span>
+              <span>#0092</span>
+          </div>
+          <img src="./src/img/pokedex/gastly.png" alt="Gastly" class="png">
+          <div class="info">
+            <ul class="types">
+              <li class="ghost">Ghost</li>
+              <li class="poison">Poison</li>
+            </ul>
+            <p class="entry">Gastly, the Gas Pokémon. Although it can sneak in anywhere with its gaseous body, it can also be blown away by wind.</p>
+          </div>          
         </li>
       </ul>
     </main>
-    <footer></footer>
-    <script src="./src/js/night-mode.js"></script>
+    <footer>
+      <div>
+        &#x1F12F; 2024 : <a href="https://lucas7x.win" target="_blank">Luc45</a>
+      </div>
+    </footer>
+    <script src="./src/js/pokedex/collapse.js"></script>
   </body>
 </html>
