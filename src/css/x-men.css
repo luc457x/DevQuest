@@ -1,0 +1,23 @@
+body {
+    font-family: "Oxanium", cursive;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.characters-list {
+    display: flex;
+}
