@@ -1,193 +1,193 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: center;
-    background-color: black;
-    font-family: 'Poppins', sans-serif;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 30px;
-    transition: background-color 1s, color 1s;
-    overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	background-color: black;
+	font-family: "Poppins", sans-serif;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 30px;
+	transition: background-color 1s, color 1s;
+	overflow: hidden;
 }
 
 header,
 footer {
-    background-color: #F93318;
-    flex-shrink: 0
+	background-color: #f93318;
+	flex-shrink: 0;
 }
 
 header {
-    padding: 10px;
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 15px 15px 0 0;
+	padding: 10px;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 15px 15px 0 0;
 }
 
 header .icon {
-    width: 90px;
-    transition: 0.2s ease-in-out;
+	width: 90px;
+	transition: 0.2s ease-in-out;
 }
 
 header .icon:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 footer {
-    border-radius: 0 0 15px 15px;
+	border-radius: 0 0 15px 15px;
 }
 
 footer {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
 }
 
 a {
-    color: black;
+	color: black;
 }
 
 a:hover {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    background-color: gray;
-    max-width: 99.8%;
-    margin: 0 auto;
-    overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: gray;
+	max-width: 99.8%;
+	margin: 0 auto;
+	overflow-y: auto;
 }
 
 main.collapse {
-    transition: max-height 1s ease-in-out;
+	transition: max-height 1s ease-in-out;
 }
 
 button {
-    background-color: inherit;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 10px 10px;
+	background-color: inherit;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 10px 10px;
 }
 
 h1 {
-    color: black;
+	color: black;
 }
 
 .day-mode {
-    background-color: ivory;
-    color: black;
+	background-color: ivory;
+	color: black;
 }
 
 .day-mode .night-card {
-    display: none;
+	display: none;
 }
 
 .day-mode header,
 .day-mode footer {
-    color: black;
+	color: black;
 }
 
 .night-mode {
-    background-color: black;
+	background-color: black;
 }
 
 .night-mode .day-card {
-    display: none;
+	display: none;
 }
 
 .night-mode header,
 .night-mode footer {
-    color: black;
+	color: black;
 }
 
 .pokemon-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 15px;
 }
 
 .pokemon-list .png {
-    width: 90px;
-    height: 90px;
+	width: 90px;
+	height: 90px;
 }
 
 .name {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid silver;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid silver;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-size: 17px;
 }
 
 .card {
-    background-color: lightslategray;
+	background-color: lightslategray;
 }
 
 .card .name span {
-    padding: 5px;
+	padding: 5px;
 }
 
 .day-card {
-    background-color: lightgoldenrodyellow;
+	background-color: lightgoldenrodyellow;
 }
 
 .day-card .name span {
-    padding: 5px;
+	padding: 5px;
 }
 
 .night-card {
-    background-color: darkblue;
+	background-color: darkblue;
 }
 
 .night-card .name span {
-    padding: 5px;
-    color: white;
+	padding: 5px;
+	color: white;
 }
 
 .card,
 .night-card,
 .day-card {
-    flex: 1 1 calc(33.33% - 35px);
-    padding: 15px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    border-radius: 15px;
-    transition: transform 0.2s ease-in-out;
+	flex: 1 1 calc(33.33% - 35px);
+	padding: 15px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 15px;
+	transition: transform 0.2s ease-in-out;
 }
 
 .card:hover,
 .night-card:hover,
 .day-card:hover {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
 }
 
 .info ul li {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .types {
-    display: flex;
-    gap: 5px;
+	display: flex;
+	gap: 5px;
 }
 
 .types .grass,
@@ -198,65 +198,65 @@ h1 {
 .types .poison,
 .types .flying,
 .types .ghost {
-    font-weight: 400;
-    padding: 5px;
-    border-radius: 5px;
+	font-weight: 400;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 .types .grass {
-    background-color: green;
+	background-color: green;
 }
 
 .types .fire {
-    background-color: orange;
+	background-color: orange;
 }
 
 .types .normal {
-    background-color: wheat;
+	background-color: wheat;
 }
 
 .types .water {
-    background-color: blue;
+	background-color: blue;
 }
 
 .types .bug {
-    background-color: olivedrab;
+	background-color: olivedrab;
 }
 
 .types .poison {
-    background-color: violet;
+	background-color: violet;
 }
 
 .types .flying {
-    background-color: skyblue;
+	background-color: skyblue;
 }
 
 .types .ghost {
-    background-color: purple;
+	background-color: purple;
 }
 
 .entry {
-    background-color: silver;
-    max-height: 80px;
-    overflow-y: auto;
-    padding: 10px;
-    border-radius: 6px;
+	background-color: silver;
+	max-height: 80px;
+	overflow-y: auto;
+	padding: 10px;
+	border-radius: 6px;
 }
 
 @media (max-width: 920px) {
-    .card,
-    .night-card,
-    .day-card {
-        flex: 1 1 calc(50% - 35px);
-    }
+	.card,
+	.night-card,
+	.day-card {
+		flex: 1 1 calc(50% - 35px);
+	}
 }
 
 @media (max-width: 768px) {
-    .card,
-    .night-card,
-    .day-card {
-        flex: 1 1 calc(100% - 35px);
-    }
+	.card,
+	.night-card,
+	.day-card {
+		flex: 1 1 calc(100% - 35px);
+	}
 }
 
 *::-webkit-scrollbar {
@@ -265,7 +265,7 @@ h1 {
 
 *::-webkit-scrollbar-track {
 	background: whitesmoke;
-    border-radius: 5px;
+	border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {

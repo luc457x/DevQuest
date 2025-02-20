@@ -1,24 +1,25 @@
 body {
-    background-color: black;
-    font-family: Segoe UI, Nunito, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    color: white;
+	background-color: black;
+	font-family: Segoe UI, Nunito, Oxygen, Ubuntu, Cantarell, Fira Sans,
+		Droid Sans, Helvetica Neue, sans-serif;
+	color: white;
 }
 
 footer {
-    font-size: 16px;
-    text-align: center;
-    height: 20px;
+	font-size: 16px;
+	text-align: center;
+	height: 20px;
 }
 
-h1, h2 {
-    color: violet;
-
+h1,
+h2 {
+	color: violet;
 }
 
 a {
-    color: purple;
+	color: purple;
 }
 
 a:hover {
-    font-weight: bold;
+	font-weight: bold;
 }
