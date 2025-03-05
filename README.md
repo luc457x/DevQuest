@@ -8,6 +8,7 @@
     button on the top-right corner.
     
     To Do: 
+    * Fix scrolling on cellphone being too slow.
     * Fix main div getting the wrong height when first opened.
     * Fix main div not having a scroll bar when needed. OBS: Maybe it has something to do with the wrong height problem.
     * Pick better colors.
