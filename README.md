@@ -14,9 +14,11 @@
     * Pick better colors.
     * Change pokeball sprite to a pokedex and add open/close animation.
     * Add images for night/day background.
+    * Add Pokemon OST "Mt. Moon cave" for night hours and "Pikachu's beach" for the day.
 
 ## X-Men characters
     A X-Men themed character selection screen.
 
     To Do:
     * Fix background responsiveness.
+    * Add X-Men theme song.
