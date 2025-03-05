@@ -19,4 +19,5 @@
     A X-Men themed character selection screen.
 
     To Do:
+    * Fix size of the info section.
     * Fix background responsiveness.
