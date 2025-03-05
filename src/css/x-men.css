@@ -4,6 +4,19 @@ body {
 	color: whitesmoke;
 }
 
+body::before {
+	content: "";
+	background-image: url(../img/x-men/bg-desktop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.2;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
 header {
 	display: flex;
 	justify-content: center;
@@ -12,6 +25,7 @@ header {
 main {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 30px;
 	min-height: calc(100dvh - 175px);
 }
@@ -55,7 +69,7 @@ h1 {
 	height: 100%;
 }
 
-.characters-list .character.selected {
+.character.selected {
 	box-shadow: 0px 0px 24px 5px blue;
 }
 
@@ -64,21 +78,66 @@ h1 {
 	max-height: 530px;
 }
 
-.selected-character .selected-character-big {
+.selected-character-big {
 	width: 430px;
 	height: 430px;
 }
 
-.selected-character .character-name {
+.character-name {
 	border-bottom: 2px solid #47f4ff;
 	letter-spacing: 4px;
 	text-transform: uppercase;
 }
 
-.selected-character .character-description {
+.character-description {
 	font-size: 16px;
 	line-height: 22px;
 	text-align: center;
 	margin-top: 20px;
 	width: 420px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1120px) {
+	header .logo {
+		max-width: 190px;
+	}
+
+	main {
+		flex-direction: column-reverse;
+		max-width: 430px;
+		margin: 0 auto;
+	}
+
+	footer {
+		margin-top: 20px;
+	}
+
+	.characters {
+		margin-top: 40px;
+	}
+
+	.character-name {
+		font-size: 17px;
+	}
+
+	.characters-list {
+		gap: 9px;
+	}
+
+	.characters-list img {
+		width: 80px;
+	}
+
+	.selected-character-big {
+		width: 350px;
+		height: 350px;
+	}
+
+	.character-description {
+		width: 80%;
+		font-size: 16px;
+		margin: 20px auto;
+	}
 }
