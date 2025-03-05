@@ -97,6 +97,11 @@ h1 {
 	width: 420px;
 }
 
+.info {
+    width: 420px;
+    height: 120px;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 1120px) {
