@@ -15,3 +15,7 @@
     * Add images for night/day background.
 
 ## X-Men characters
+    A X-Men themed character selection screen.
+
+    To Do:
+    * Fix background responsiveness.
