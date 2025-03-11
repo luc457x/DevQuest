@@ -8,6 +8,8 @@
     button on the top-right corner.
     
     To Do: 
+    * Change layout to pkedex starting as closed.
+    * Use opening interaction to start and closing to stop music.
     * Fix scrolling on cellphone being too slow.
     * Fix main div getting the wrong height when first opened.
     * Fix main div not having a scroll bar when needed. OBS: Maybe it has something to do with the wrong height problem.
@@ -20,5 +22,7 @@
     A X-Men themed character selection screen.
 
     To Do:
+    * Fix layout sometimes being too big creating a "blanker" space on bottom.
+    * Think in a way to start/stop music.
     * Fix background responsiveness.
     * Add X-Men theme song.
