@@ -28,5 +28,6 @@
     * Add X-Men theme song.
 
 ## One Piece
+    A One Piece themed character selection screen.
 
     ToDo:
