@@ -31,3 +31,6 @@
     A One Piece themed character selection screen.
 
     ToDo:
+    * Put a better quality image on zoro's profile.
+    * Add Usopp, Robin, Frank, Brook and Jinbe.
+    * Add music.
